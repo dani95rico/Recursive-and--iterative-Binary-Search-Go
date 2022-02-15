@@ -8,10 +8,10 @@ func main() {
 	slice := []int{1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20}
 
 	find := binarySearch(slice, 5, 0, len(slice)-1)
-	fmt.Println("Elemento encontrado por función recursiva de binarySearch en la posición: ", find)
+	fmt.Println("Element found by recursive binarySearch function at position: ", find)
 
 	find = iterBinarySearch(slice, 5, 0, len(slice)-1)
-	fmt.Println("Elemento encontrado por función iterativa de binarySearch en la posición: ", find)
+	fmt.Println("Element found by iterative function of binarySearch at position: ", find)
 
 }
 
